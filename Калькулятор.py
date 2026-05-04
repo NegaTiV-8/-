@@ -10,4 +10,5 @@ except ValueError:
 else:
     print(f"Результат: {result}")
 finally:
+    file.close()
     print("Файл закрыт.")
