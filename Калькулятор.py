@@ -1,4 +1,3 @@
-file = open("Калькулятор.py")
 try:
     a = int(input('Введите первое число: '))
     b = int(input('Введите второе число: '))
@@ -10,5 +9,4 @@ except ValueError:
 else:
     print(f"Результат: {result}")
 finally:
-    file.close()
     print("Файл закрыт.")
